@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Node (not used at runtime, but just in case)
+node_modules/
+
+# Vercel
+.vercel/
+
+# Local env (never commit secrets)
+.env
+.env.*

@@ -16,6 +16,10 @@
   <!-- Floating reward animation layer -->
   <div id="fx-layer" aria-hidden="true"></div>
 
+  <!-- Supabase client (cloud sync + login), vendored locally so the app has
+       no external runtime dependency. Loaded before our config/app. -->
+  <script src="vendor/supabase.js"></script>
+  <script src="config.js"></script>
   <script src="content.js"></script>
   <script src="app.js"></script>
 </body>
